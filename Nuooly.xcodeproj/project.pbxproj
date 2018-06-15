@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E173C7420CF8FD5000D2530 /* AboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E173C7320CF8FD5000D2530 /* AboutUsVC.swift */; };
+		2E173C7620CF9497000D2530 /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E173C7520CF9497000D2530 /* ContactUsVC.swift */; };
+		2E173C7820CF94CA000D2530 /* PrivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E173C7720CF94CA000D2530 /* PrivacyPolicyVC.swift */; };
+		2E173C7A20CF94E0000D2530 /* SendFeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E173C7920CF94E0000D2530 /* SendFeedbackVC.swift */; };
+		2E173C7C20CF9518000D2530 /* TermsandServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E173C7B20CF9518000D2530 /* TermsandServiceVC.swift */; };
+		2E173C7E20CF954C000D2530 /* InviteFriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E173C7D20CF954C000D2530 /* InviteFriendsVC.swift */; };
+		2E173C8020CF956A000D2530 /* LinkedAccountsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E173C7F20CF956A000D2530 /* LinkedAccountsVC.swift */; };
 		2EDE9ADD20CF3B0C00D5E360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE9ADC20CF3B0C00D5E360 /* AppDelegate.swift */; };
 		2EDE9ADF20CF3B0C00D5E360 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE9ADE20CF3B0C00D5E360 /* ViewController.swift */; };
 		2EDE9AE220CF3B0C00D5E360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDE9AE020CF3B0C00D5E360 /* Main.storyboard */; };
@@ -14,6 +21,21 @@
 		2EDE9AE720CF3B0C00D5E360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDE9AE520CF3B0C00D5E360 /* LaunchScreen.storyboard */; };
 		2EDE9AF220CF3B0C00D5E360 /* NuoolyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE9AF120CF3B0C00D5E360 /* NuoolyTests.swift */; };
 		2EDE9AFD20CF3B0C00D5E360 /* NuoolyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE9AFC20CF3B0C00D5E360 /* NuoolyUITests.swift */; };
+		2EDE9B0F20CF4E1900D5E360 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE9B0E20CF4E1900D5E360 /* MenuVC.swift */; };
+		2EDE9B1620CF53E900D5E360 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE9B1120CF53E800D5E360 /* Helper.swift */; };
+		2EDE9B1720CF53E900D5E360 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE9B1220CF53E800D5E360 /* Extensions.swift */; };
+		2EDE9B1820CF53E900D5E360 /* Custom Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE9B1320CF53E800D5E360 /* Custom Functions.swift */; };
+		2EDE9B1A20CF53E900D5E360 /* AlamofireRequestFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE9B1520CF53E900D5E360 /* AlamofireRequestFetch.swift */; };
+		2EDE9B1C20CF5E8300D5E360 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDE9B1B20CF5E8300D5E360 /* HomeVC.swift */; };
+		2EEDA56320D0A86B00D5DEAD /* CommunityFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDA56220D0A86B00D5DEAD /* CommunityFeedVC.swift */; };
+		2EEDA56520D0A88C00D5DEAD /* CommunityRequestsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDA56420D0A88C00D5DEAD /* CommunityRequestsVC.swift */; };
+		2EEDA57920D0C66900D5DEAD /* CommunityFeedCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDA57720D0C66900D5DEAD /* CommunityFeedCVC.swift */; };
+		2EEDA57A20D0C66900D5DEAD /* CommunityFeedCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EEDA57820D0C66900D5DEAD /* CommunityFeedCVC.xib */; };
+		2EEDA57D20D0C93800D5DEAD /* CommunityRequestsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDA57B20D0C93800D5DEAD /* CommunityRequestsCVC.swift */; };
+		2EEDA57E20D0C93800D5DEAD /* CommunityRequestsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EEDA57C20D0C93800D5DEAD /* CommunityRequestsCVC.xib */; };
+		2EEDA58120D0E9C100D5DEAD /* HomeCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDA57F20D0E9C100D5DEAD /* HomeCVC.swift */; };
+		2EEDA58220D0E9C100D5DEAD /* HomeCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EEDA58020D0E9C100D5DEAD /* HomeCVC.xib */; };
+		9D3206344C07B66B91F43859 /* Pods_Nuooly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2980864A423F8B756F1F011 /* Pods_Nuooly.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E173C7320CF8FD5000D2530 /* AboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsVC.swift; sourceTree = "<group>"; };
+		2E173C7520CF9497000D2530 /* ContactUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
+		2E173C7720CF94CA000D2530 /* PrivacyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyVC.swift; sourceTree = "<group>"; };
+		2E173C7920CF94E0000D2530 /* SendFeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendFeedbackVC.swift; sourceTree = "<group>"; };
+		2E173C7B20CF9518000D2530 /* TermsandServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsandServiceVC.swift; sourceTree = "<group>"; };
+		2E173C7D20CF954C000D2530 /* InviteFriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteFriendsVC.swift; sourceTree = "<group>"; };
+		2E173C7F20CF956A000D2530 /* LinkedAccountsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedAccountsVC.swift; sourceTree = "<group>"; };
 		2EDE9AD920CF3B0C00D5E360 /* Nuooly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nuooly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDE9ADC20CF3B0C00D5E360 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EDE9ADE20CF3B0C00D5E360 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +76,23 @@
 		2EDE9AF820CF3B0C00D5E360 /* NuoolyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuoolyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDE9AFC20CF3B0C00D5E360 /* NuoolyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuoolyUITests.swift; sourceTree = "<group>"; };
 		2EDE9AFE20CF3B0C00D5E360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDE9B0E20CF4E1900D5E360 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		2EDE9B1120CF53E800D5E360 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		2EDE9B1220CF53E800D5E360 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2EDE9B1320CF53E800D5E360 /* Custom Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Custom Functions.swift"; sourceTree = "<group>"; };
+		2EDE9B1520CF53E900D5E360 /* AlamofireRequestFetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRequestFetch.swift; sourceTree = "<group>"; };
+		2EDE9B1B20CF5E8300D5E360 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		2EEDA56220D0A86B00D5DEAD /* CommunityFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityFeedVC.swift; sourceTree = "<group>"; };
+		2EEDA56420D0A88C00D5DEAD /* CommunityRequestsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityRequestsVC.swift; sourceTree = "<group>"; };
+		2EEDA57720D0C66900D5DEAD /* CommunityFeedCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityFeedCVC.swift; sourceTree = "<group>"; };
+		2EEDA57820D0C66900D5DEAD /* CommunityFeedCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommunityFeedCVC.xib; sourceTree = "<group>"; };
+		2EEDA57B20D0C93800D5DEAD /* CommunityRequestsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityRequestsCVC.swift; sourceTree = "<group>"; };
+		2EEDA57C20D0C93800D5DEAD /* CommunityRequestsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommunityRequestsCVC.xib; sourceTree = "<group>"; };
+		2EEDA57F20D0E9C100D5DEAD /* HomeCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCVC.swift; sourceTree = "<group>"; };
+		2EEDA58020D0E9C100D5DEAD /* HomeCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCVC.xib; sourceTree = "<group>"; };
+		4D7A4F992A58905339DE4491 /* Pods-Nuooly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nuooly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nuooly/Pods-Nuooly.debug.xcconfig"; sourceTree = "<group>"; };
+		6179100E92D67ACBC848AAE6 /* Pods-Nuooly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nuooly.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nuooly/Pods-Nuooly.release.xcconfig"; sourceTree = "<group>"; };
+		C2980864A423F8B756F1F011 /* Pods_Nuooly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nuooly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D3206344C07B66B91F43859 /* Pods_Nuooly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +121,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E07000820D34FD500679266 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2EDE9B0E20CF4E1900D5E360 /* MenuVC.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		2EDE9AD020CF3B0C00D5E360 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +136,8 @@
 				2EDE9AF020CF3B0C00D5E360 /* NuoolyTests */,
 				2EDE9AFB20CF3B0C00D5E360 /* NuoolyUITests */,
 				2EDE9ADA20CF3B0C00D5E360 /* Products */,
+				ACA57EDDF0229DFA5E83DA74 /* Pods */,
+				5224BFEF2AD0F5AD2A05B9B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +154,13 @@
 		2EDE9ADB20CF3B0C00D5E360 /* Nuooly */ = {
 			isa = PBXGroup;
 			children = (
+				2E07000820D34FD500679266 /* Menu */,
+				2EEDA57620D0C5FD00D5DEAD /* View Cells */,
+				2EDE9B1020CF531B00D5E360 /* Helper */,
+				2EDE9B0D20CF423B00D5E360 /* Controllers */,
+				2EDE9B0C20CF41F100D5E360 /* Storyboard Files */,
 				2EDE9ADC20CF3B0C00D5E360 /* AppDelegate.swift */,
-				2EDE9ADE20CF3B0C00D5E360 /* ViewController.swift */,
-				2EDE9AE020CF3B0C00D5E360 /* Main.storyboard */,
 				2EDE9AE320CF3B0C00D5E360 /* Assets.xcassets */,
-				2EDE9AE520CF3B0C00D5E360 /* LaunchScreen.storyboard */,
 				2EDE9AE820CF3B0C00D5E360 /* Info.plist */,
 			);
 			path = Nuooly;
@@ -125,6 +184,74 @@
 			path = NuoolyUITests;
 			sourceTree = "<group>";
 		};
+		2EDE9B0C20CF41F100D5E360 /* Storyboard Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EDE9AE520CF3B0C00D5E360 /* LaunchScreen.storyboard */,
+				2EDE9AE020CF3B0C00D5E360 /* Main.storyboard */,
+			);
+			path = "Storyboard Files";
+			sourceTree = "<group>";
+		};
+		2EDE9B0D20CF423B00D5E360 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2EDE9ADE20CF3B0C00D5E360 /* ViewController.swift */,
+				2E173C7B20CF9518000D2530 /* TermsandServiceVC.swift */,
+				2EDE9B1B20CF5E8300D5E360 /* HomeVC.swift */,
+				2E173C7320CF8FD5000D2530 /* AboutUsVC.swift */,
+				2E173C7520CF9497000D2530 /* ContactUsVC.swift */,
+				2E173C7720CF94CA000D2530 /* PrivacyPolicyVC.swift */,
+				2E173C7920CF94E0000D2530 /* SendFeedbackVC.swift */,
+				2E173C7D20CF954C000D2530 /* InviteFriendsVC.swift */,
+				2E173C7F20CF956A000D2530 /* LinkedAccountsVC.swift */,
+				2EEDA56220D0A86B00D5DEAD /* CommunityFeedVC.swift */,
+				2EEDA56420D0A88C00D5DEAD /* CommunityRequestsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2EDE9B1020CF531B00D5E360 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2EDE9B1520CF53E900D5E360 /* AlamofireRequestFetch.swift */,
+				2EDE9B1320CF53E800D5E360 /* Custom Functions.swift */,
+				2EDE9B1220CF53E800D5E360 /* Extensions.swift */,
+				2EDE9B1120CF53E800D5E360 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2EEDA57620D0C5FD00D5DEAD /* View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2EEDA57720D0C66900D5DEAD /* CommunityFeedCVC.swift */,
+				2EEDA57820D0C66900D5DEAD /* CommunityFeedCVC.xib */,
+				2EEDA57B20D0C93800D5DEAD /* CommunityRequestsCVC.swift */,
+				2EEDA57C20D0C93800D5DEAD /* CommunityRequestsCVC.xib */,
+				2EEDA57F20D0E9C100D5DEAD /* HomeCVC.swift */,
+				2EEDA58020D0E9C100D5DEAD /* HomeCVC.xib */,
+			);
+			path = "View Cells";
+			sourceTree = "<group>";
+		};
+		5224BFEF2AD0F5AD2A05B9B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2980864A423F8B756F1F011 /* Pods_Nuooly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACA57EDDF0229DFA5E83DA74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D7A4F992A58905339DE4491 /* Pods-Nuooly.debug.xcconfig */,
+				6179100E92D67ACBC848AAE6 /* Pods-Nuooly.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EDE9B0120CF3B0C00D5E360 /* Build configuration list for PBXNativeTarget "Nuooly" */;
 			buildPhases = (
+				F3111BC024AB6FC99BF26AD8 /* [CP] Check Pods Manifest.lock */,
 				2EDE9AD520CF3B0C00D5E360 /* Sources */,
 				2EDE9AD620CF3B0C00D5E360 /* Frameworks */,
 				2EDE9AD720CF3B0C00D5E360 /* Resources */,
+				059600ABF7C296AEBCB0FBDD /* [CP] Embed Pods Frameworks */,
+				66269E405A852ACEF5468B4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +362,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EEDA57E20D0C93800D5DEAD /* CommunityRequestsCVC.xib in Resources */,
 				2EDE9AE720CF3B0C00D5E360 /* LaunchScreen.storyboard in Resources */,
 				2EDE9AE420CF3B0C00D5E360 /* Assets.xcassets in Resources */,
+				2EEDA57A20D0C66900D5DEAD /* CommunityFeedCVC.xib in Resources */,
 				2EDE9AE220CF3B0C00D5E360 /* Main.storyboard in Resources */,
+				2EEDA58220D0E9C100D5DEAD /* HomeCVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +387,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		059600ABF7C296AEBCB0FBDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nuooly/Pods-Nuooly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66269E405A852ACEF5468B4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nuooly/Pods-Nuooly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3111BC024AB6FC99BF26AD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2EDE9AD520CF3B0C00D5E360 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EDE9B1720CF53E900D5E360 /* Extensions.swift in Sources */,
+				2EDE9B1C20CF5E8300D5E360 /* HomeVC.swift in Sources */,
+				2EEDA56320D0A86B00D5DEAD /* CommunityFeedVC.swift in Sources */,
+				2EDE9B1A20CF53E900D5E360 /* AlamofireRequestFetch.swift in Sources */,
+				2E173C8020CF956A000D2530 /* LinkedAccountsVC.swift in Sources */,
+				2EDE9B1820CF53E900D5E360 /* Custom Functions.swift in Sources */,
+				2E173C7820CF94CA000D2530 /* PrivacyPolicyVC.swift in Sources */,
+				2EEDA56520D0A88C00D5DEAD /* CommunityRequestsVC.swift in Sources */,
+				2E173C7E20CF954C000D2530 /* InviteFriendsVC.swift in Sources */,
+				2E173C7420CF8FD5000D2530 /* AboutUsVC.swift in Sources */,
 				2EDE9ADF20CF3B0C00D5E360 /* ViewController.swift in Sources */,
+				2EEDA57D20D0C93800D5DEAD /* CommunityRequestsCVC.swift in Sources */,
+				2E173C7A20CF94E0000D2530 /* SendFeedbackVC.swift in Sources */,
 				2EDE9ADD20CF3B0C00D5E360 /* AppDelegate.swift in Sources */,
+				2E173C7C20CF9518000D2530 /* TermsandServiceVC.swift in Sources */,
+				2EEDA57920D0C66900D5DEAD /* CommunityFeedCVC.swift in Sources */,
+				2EDE9B0F20CF4E1900D5E360 /* MenuVC.swift in Sources */,
+				2EEDA58120D0E9C100D5DEAD /* HomeCVC.swift in Sources */,
+				2EDE9B1620CF53E900D5E360 /* Helper.swift in Sources */,
+				2E173C7620CF9497000D2530 /* ContactUsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +623,7 @@
 		};
 		2EDE9B0220CF3B0C00D5E360 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7A4F992A58905339DE4491 /* Pods-Nuooly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +639,7 @@
 		};
 		2EDE9B0320CF3B0C00D5E360 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6179100E92D67ACBC848AAE6 /* Pods-Nuooly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

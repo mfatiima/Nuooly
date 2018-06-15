@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeCVC" customModule="Nuooly" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="159" height="159"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="159" height="159"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AYn-cr-npG">
+                        <rect key="frame" x="64.5" y="64.5" width="30" height="30"/>
+                        <color key="backgroundColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="dTX-72-UdJ"/>
+                            <constraint firstAttribute="width" secondItem="AYn-cr-npG" secondAttribute="height" multiplier="1:1" id="wdG-y8-HUs"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project Alerts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ai4-dG-1cs">
+                        <rect key="frame" x="29" y="114.5" width="101" height="18"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" red="0.24648493530000001" green="0.042444571850000001" blue="0.29830163720000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPp-zr-0hc">
+                        <rect key="frame" x="135" y="114.5" width="14" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                        <color key="textColor" red="0.8980392157" green="0.41176470590000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="WPp-zr-0hc" firstAttribute="top" secondItem="ai4-dG-1cs" secondAttribute="top" id="CL5-Uk-zBq"/>
+                <constraint firstItem="ai4-dG-1cs" firstAttribute="top" secondItem="AYn-cr-npG" secondAttribute="bottom" constant="20" id="E0i-Q7-1qo"/>
+                <constraint firstItem="AYn-cr-npG" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="I1Y-sn-Tlu"/>
+                <constraint firstItem="WPp-zr-0hc" firstAttribute="leading" secondItem="ai4-dG-1cs" secondAttribute="trailing" constant="5" id="M8w-X3-3wU"/>
+                <constraint firstAttribute="trailing" secondItem="WPp-zr-0hc" secondAttribute="trailing" constant="10" id="VLf-85-TnJ"/>
+                <constraint firstItem="ai4-dG-1cs" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Xu7-0m-pqn"/>
+                <constraint firstItem="AYn-cr-npG" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="twU-Ea-4bm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="countLbl" destination="WPp-zr-0hc" id="lGj-aD-FS8"/>
+                <outlet property="titleImgView" destination="AYn-cr-npG" id="Xn6-WF-pUn"/>
+                <outlet property="titleLbl" destination="ai4-dG-1cs" id="UIo-En-cDK"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>
